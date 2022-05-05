@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+    <ImageButton
+        android:id="@+id/btngoogle"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:backgroundTint="#b2ebf2"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/btnfacebook"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:backgroundTint="#c5e1a5"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter" />
+    <ImageButton
+        android:id="@+id/btninstagram"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:backgroundTint="#f4ff81"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/instagram"/>
+    <ImageButton
+        android:id="@+id/btnmessenger"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:backgroundTint="#fdd835"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/mensajero"/>
+    <ImageButton
+        android:id="@+id/btnyoutube"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:backgroundTint="#ffca28"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter" />
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
